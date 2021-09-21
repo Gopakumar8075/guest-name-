@@ -1,0 +1,10 @@
+var guestList = ["mithu", "gopu","arath"];
+var guestName = prompt ("enter guest name");
+var guestName = guestName.toLowerCase();
+if (guestList.includes(guestName))
+{
+    alert ("welcome")
+}
+else {
+    alert ("may be next time ")
+}
